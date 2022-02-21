@@ -63,6 +63,7 @@ void bubble(void *p, size_t width, int N, int (*fptr) (const void *, const void 
 	}
 }
 
+// The Use of void pointers allows us to cast the type of the pointer inside the function 
 int compare_string(const void *m, const void *n)
 {
 	char *m1 = (char *)m;
